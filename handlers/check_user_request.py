@@ -1,5 +1,5 @@
 from aiogram import types
-
+from data.replics_config import ADD_APPROVED_ERROR
 from data.config import ADMIN_ID
 from loader import dp, bot
 from utils.misc.json_channels_worker import add_approved
@@ -14,5 +14,5 @@ async def approve(update: types.ChatJoinRequest):
     if add_approve:
         pass
     else:
-        bot.send_message(ADMIN_ID, f"Ошибка в добавлении принятого пользователя:\n{add_approved}")
+        bot.send_message(ADMIN_ID, f"{ADD_APPROVED_ERROR}:\n{add_approved}")
 
