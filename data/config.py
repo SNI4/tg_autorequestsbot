@@ -1,3 +1,3 @@
-TOKEN = "5963758286:AAHJEXbM8fRztiMUKuI48q_-VBy_Cvo5mZw"
-ADMIN_ID = 622655681
-ADMIN_USERNAME = "sn1chz"
+TOKEN = "enter bot token"
+ADMIN_ID = enter admin id
+ADMIN_USERNAME = "enter admin username"
